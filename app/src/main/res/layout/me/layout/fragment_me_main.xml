@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data class=".MeMain">
+
+        <variable
+            name="eventHandler"
+            type="com.dabang.baseapp.module.base.EventHandler" />
+    </data>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/mSrl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:id="@+id/mSrcoll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <include layout="@layout/include_base_menu_toolbar" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/color_bg"
+                        android:orientation="vertical"
+                        android:paddingBottom="15dp"
+                        android:paddingLeft="11dp"
+                        android:paddingRight="15dp"
+                        android:paddingTop="15dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:id="@+id/av"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentLeft="true"
+                                android:onClick="@{eventHandler::onClick}" />
+
+                            <RelativeLayout
+                                android:id="@+id/rl_container"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="16dp"
+                                android:layout_toRightOf="@id/av"
+                                android:gravity="center_vertical">
+
+                                <android.support.v7.widget.AppCompatTextView
+                                    android:id="@+id/tv_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_toLeftOf="@+id/tv_edit_info"
+                                    android:ellipsize="end"
+                                    android:lines="1"
+                                    android:textColor="@color/color_title"
+                                    android:textSize="@dimen/default_font_size_seconder_larger" />
+
+                                <android.support.v7.widget.AppCompatTextView
+                                    android:id="@+id/tv_title"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@id/tv_name"
+                                    android:layout_toLeftOf="@+id/tv_edit_info"
+                                    android:ellipsize="end"
+                                    android:lines="1"
+                                    android:textColor="@color/color_content"
+                                    android:textSize="@dimen/default_font_size_middle" />
+
+
+                                <android.support.v7.widget.AppCompatTextView
+                                    android:id="@+id/txt_login_hint"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_below="@id/tv_title"
+                                    android:layout_toLeftOf="@+id/tv_edit_info"
+                                    android:ellipsize="end"
+                                    android:lines="1"
+                                    android:textColor="@color/color_content"
+                                    android:textSize="@dimen/default_font_size_middle" />
+
+                                <android.support.v7.widget.AppCompatTextView
+                                    android:id="@id/tv_edit_info"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:foreground="?attr/selectableItemBackgroundBorderless"
+                                    android:gravity="center"
+                                    android:onClick="@{eventHandler::onClick}"
+                                    android:paddingBottom="11dp"
+                                    android:paddingLeft="15dp"
+                                    android:paddingRight="15dp"
+                                    android:paddingTop="11dp"
+                                    android:textSize="@dimen/default_font_size_middle" />
+                            </RelativeLayout>
+                        </RelativeLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/txt_attention"
+                                style="@style/me_attention_fans_fav_score_txt_style"
+                                android:onClick="@{eventHandler::onClick}"
+                                android:text="test" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/txt_fans"
+                                style="@style/me_attention_fans_fav_score_txt_style"
+                                android:onClick="@{eventHandler::onClick}"
+                                android:text="test" />
+
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/txt_fav"
+                                style="@style/me_attention_fans_fav_score_txt_style"
+                                android:onClick="@{eventHandler::onClick}"
+                                android:text="test" />
+
+                            <android.support.v7.widget.AppCompatTextView
+                                android:id="@+id/txt_score"
+                                style="@style/me_attention_fans_fav_score_txt_style"
+                                android:onClick="@{eventHandler::onClick}"
+                                android:text="test" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</layout>

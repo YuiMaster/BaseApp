@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_toolbar_root"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbarStyle" />
+
+    <TextView
+        android:id="@+id/txt_title"
+        style="@style/titleTxtStyle"
+        android:layout_centerInParent="true" />
+
+    <ImageButton
+        android:id="@+id/imgBtn_toobar_menu"
+        style="@style/toolbarImageMenuStyle"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txt_toobar_menu"
+        style="@style/toolbarMenuStyle"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:textColor="@color/color_cyan"
+        android:textSize="@dimen/default_font_size_middle"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/divider_view"
+        style="@style/lineStyle"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

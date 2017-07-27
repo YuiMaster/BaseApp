@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_bar_height">60dp</dimen>
+
+
+    <!--字体大小-->
+    <dimen name="default_font_size_larger">19dp</dimen>
+    <dimen name="default_font_size_seconder_larger">16dp</dimen>
+    <dimen name="default_font_size_middle">14dp</dimen>
+    <dimen name="default_font_size_small">12dp</dimen>
+    <dimen name="default_font_size_seconder_small">10dp</dimen>
+
+
+    <!--默认横线的尺寸-->
+    <dimen name="default_line_size">0.5dp</dimen>
+
+
+    <!--默认文本行间距-->
+    <dimen name="default_tex_line_space">6dp</dimen>
+</resources>

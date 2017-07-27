@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="fl_container" type="id" />
+    <item name="fl_child_container" type="id" />
+    <item name="toolbar" type="id" />
+    <item name="txt_title" type="id" />
+    <item name="txt_toobar_menu" type="id" />
+    <item name="imgBtn_toobar_menu" type="id" />
+</resources>

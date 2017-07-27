@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        icon="@drawable/tab_home_selector"
+        id="@+id/tab_homePage"
+        title="@string/home_page_str" />
+    <tab
+        icon="@drawable/tab_activity_selector"
+        id="@+id/tab_event"
+        title="@string/event_str" />
+    <tab
+        icon="@drawable/tab_me_selector"
+        id="@+id/tab_me"
+        title="@string/me_str" />
+</tabs>

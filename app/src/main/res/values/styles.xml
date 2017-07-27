@@ -1,0 +1,78 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/color_bg</item>
+    </style>
+
+    <!--bottomBar-->
+    <style name="BaseAppTheme.TransNav" parent="BaseAppTheme" />
+
+    <style name="bottomBarTextStyle">
+        <item name="android:textSize">@dimen/default_font_size_middle</item>
+        <item name="android:textColor">@color/home_tab_text_selector</item>
+    </style>
+    <!--bottomBar-->
+
+
+    <!--Toolbar Menu Style-->
+    <style name="toolbarStyle">
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="contentInsetEnd">0dp</item>
+        <item name="contentInsetStart">0dp</item>
+    </style>
+
+    <!--横线 Style-->
+    <style name="lineStyle">
+        <item name="android:layout_height">@dimen/default_line_size</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@color/color_div</item>
+    </style>
+
+
+    <!--Toolbar Style-->
+    <style name="toolbarMenuStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginRight">6dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="toolbarImageMenuStyle" parent="toolbarMenuStyle">
+        <item name="android:background">@null</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+
+    <!--Toolbar标题Style-->
+    <style name="titleTxtStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/color_title</item>
+        <item name="android:textSize">@dimen/default_font_size_larger</item>
+        <item name="android:lines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!--关注，粉丝，收藏，积分-->
+    <style name="me_attention_fans_fav_score_txt_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/default_font_size_middle</item>
+        <item name="android:textColor">@color/color_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lines">2</item>
+        <item name="android:lineSpacingExtra">@dimen/default_tex_line_space</item>
+        <item name="android:foreground">?attr/selectableItemBackgroundBorderless</item>
+    </style>
+
+</resources>

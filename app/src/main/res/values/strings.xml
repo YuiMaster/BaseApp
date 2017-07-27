@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewPagerAndFragments</string>
+
+
+    <string name="home_page_str">首页</string>
+    <string name="event_str">活动</string>
+    <string name="me_str">我的</string>
+</resources>
