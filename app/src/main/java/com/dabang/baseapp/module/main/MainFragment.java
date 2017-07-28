@@ -7,7 +7,7 @@ import android.support.v4.app.Fragment;
 
 import com.dabang.baseapp.Main;
 import com.dabang.baseapp.R;
-import com.dabang.baseapp.fragments.BaseFragment;
+import com.dabang.baseapp.base.fragments.BaseFragment;
 import com.dabang.baseapp.module.event.EventFragment;
 import com.dabang.baseapp.module.home.HomePageFragment;
 import com.dabang.baseapp.module.me.MeMainFragment;

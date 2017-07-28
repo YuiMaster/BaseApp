@@ -3,7 +3,7 @@ package com.dabang.baseapp.module.home;
 import android.os.Bundle;
 
 import com.dabang.baseapp.R;
-import com.dabang.baseapp.fragments.BaseFragment;
+import com.dabang.baseapp.base.fragments.BaseFragment;
 
 /**
  * Created by Jane on 2017/7/27.

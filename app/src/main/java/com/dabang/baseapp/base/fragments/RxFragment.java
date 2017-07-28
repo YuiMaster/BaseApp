@@ -1,4 +1,4 @@
-package com.dabang.baseapp.fragments;
+package com.dabang.baseapp.base.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.CallSuper;

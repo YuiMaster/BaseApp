@@ -1,4 +1,4 @@
-package com.dabang.baseapp.fragments;
+package com.dabang.baseapp.base.fragments;
 
 /**
  * Created by Jane on 2017/7/27.

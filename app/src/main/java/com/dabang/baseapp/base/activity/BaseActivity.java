@@ -1,4 +1,4 @@
-package com.dabang.baseapp.activity;
+package com.dabang.baseapp.base.activity;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
