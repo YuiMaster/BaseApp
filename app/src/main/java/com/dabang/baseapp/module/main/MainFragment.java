@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.annotation.IdRes;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
+//import android.support.v4.view.ViewPager;
 
 import com.dabang.baseapp.Main;
 import com.dabang.baseapp.R;
