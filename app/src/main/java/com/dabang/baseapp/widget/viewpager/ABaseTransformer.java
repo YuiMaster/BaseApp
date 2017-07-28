@@ -2,7 +2,7 @@ package com.dabang.baseapp.widget.viewpager;
 
 import android.view.View;
 
-import com.dabang.viewpager.ViewPager;
+import com.dabang.widget.viewpager.ViewPager;
 
 /**
  * Created by Jane on 2017/7/27.

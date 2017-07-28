@@ -1,4 +1,4 @@
-package com.dabang.viewpager;
+package com.dabang.widget.viewpager;
 
 import java.util.ArrayList;
 

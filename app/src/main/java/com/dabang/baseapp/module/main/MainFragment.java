@@ -13,7 +13,7 @@ import com.dabang.baseapp.module.home.HomePageFragment;
 import com.dabang.baseapp.module.me.MeMainFragment;
 import com.dabang.baseapp.widget.BaseFragmentAdapter;
 import com.dabang.baseapp.widget.viewpager.DefaultTransformer;
-import com.dabang.viewpager.ViewPager;
+import com.dabang.widget.viewpager.ViewPager;
 import com.roughike.bottombar.BottomBar;
 import com.roughike.bottombar.OnTabSelectListener;
 

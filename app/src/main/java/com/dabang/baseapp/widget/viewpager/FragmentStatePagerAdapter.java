@@ -10,7 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.dabang.viewpager.PagerAdapter;
+import com.dabang.widget.viewpager.PagerAdapter;
 
 import java.util.ArrayList;
 

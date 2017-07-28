@@ -1,4 +1,4 @@
-package com.dabang.viewpager;
+package com.dabang.widget.viewpager;
 
 /**
  * Created by Jane on 2017/7/28.

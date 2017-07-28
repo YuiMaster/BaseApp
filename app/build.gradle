@@ -64,6 +64,5 @@ dependencies {
     //EventBus
     compile eventBusDependencies.eventBus
 
-
-    compile project(':viewpager')
+    compile project(':widget')
 }
