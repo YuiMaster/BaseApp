@@ -2,7 +2,7 @@ package com.dabang.baseapp;
 
 import android.os.Bundle;
 
-import com.dabang.baseapp.Activity.BaseActivity;
+import com.dabang.baseapp.activity.BaseActivity;
 import com.dabang.baseapp.module.main.MainFragment;
 
 import me.yokeyword.fragmentation.SupportFragment;

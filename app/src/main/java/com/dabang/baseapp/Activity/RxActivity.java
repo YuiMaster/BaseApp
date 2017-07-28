@@ -1,4 +1,4 @@
-package com.dabang.baseapp.Activity;
+package com.dabang.baseapp.activity;
 
 import android.os.Bundle;
 import android.support.annotation.CallSuper;

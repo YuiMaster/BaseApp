@@ -1,4 +1,4 @@
-package com.dabang.baseapp.Utils;
+package com.dabang.baseapp.utils;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

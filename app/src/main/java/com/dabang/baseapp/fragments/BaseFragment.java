@@ -11,7 +11,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.dabang.baseapp.R;
-import com.dabang.baseapp.Utils.StringUtils;
+import com.dabang.baseapp.utils.StringUtils;
 
 import me.yokeyword.fragmentation.SupportFragment;
 import me.yokeyword.fragmentation.anim.DefaultVerticalAnimator;
