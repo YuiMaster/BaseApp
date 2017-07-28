@@ -2,7 +2,8 @@ package com.dabang.baseapp.widget;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+
+import com.dabang.baseapp.widget.viewpager.FragmentStatePagerAdapter;
 
 import java.util.List;
 
